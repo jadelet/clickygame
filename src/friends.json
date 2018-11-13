@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "name": "Deanna Troi",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/df/DeannaTroi.jpg"
+   
+  },
+  {
+    "id": 2,
+    "name": "Data",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/09/DataTNG.jpg",
+   
+  },
+  {
+    "id": 3,
+    "name": "Q",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/Q_portrait.jpg"
+  
+  },
+  {
+    "id": 4,
+    "name": "Geordi LaForge",
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/04/GeordiLaForge.jpg"
+   
+  },
+  {
+    "id": 5,
+    "name": "Jean-Luc Picard",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/20/Captain_Picard_Chair.jpg"
+   
+  },
+  {
+    "id": 6,
+    "name": "Tasha Yar",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/TashaYar.jpg"
+ 
+  },
+  {
+    "id": 7,
+    "name": "Worf",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ed/WorfTNG.jpg"
+   
+  {
+    "id": 8,
+    "name": "Wesley Crusher",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/WesleyCrusher2366.jpg"
+   
+  },
+  {
+    "id": 9,
+    "name": "Wil Riker",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/20/WilRiker.jpg"
+   
+  },
+  {
+    "id": 10,
+    "name": "Borg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ea/I_Borg_Star_Trek_TNG_HD.jpg"
+  
+  },
+  {
+    "id": 11,
+    "name": "Dr. Pulaski",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Katherine_Pulaski.jpg"
+
+  },
+  {
+    "id": 12,
+    "name": "Boothby",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b9/Ray_Walston_as_Boothby.jpg"
+    
+  }
+]
