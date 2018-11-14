@@ -4,22 +4,20 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./friends.json";
 import "./App.css";
-
+//Start all friends with a value of not chosen. Map out friends. 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
     friends
   };
- const chosenFriend = false
- rearrangeFriend = id => {
+ chosenFriend = false
+  
  
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
-    
-  };
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
-  if (this.state.friends.chosenfriends.includes (false) {
+ 
+    // when an image component is clicked, Mark it chosen
+  // check entire list to make sure there is still at lest one not chosen
+  // if one is still not chosen, rearrange list and remap randomly.
+  
+ function 
   render() {
     return (
       <div>
@@ -38,14 +36,36 @@ class App extends Component {
     );
   }
 }
-else {
-  "Better Luck Next time"
-  
 
+function shuffle(friends) {
+  const rand = friends.length, t, i;
+
+  // While there remain elements to shuffle…
+  while (rand) {
+
+    // Pick a remaining element…
+    i = Math.floor(Math.random() * rand--);
+
+    // And swap it with the current element.
+    t = friends[rand];
+    friends[rand] = friends[i];
+    friends[i] = t;
+  }
+
+  return friends;
 }
 
-}
+
+  rearrangeFriend = id => {
+ 
+    // Set this.state.friends equal to the new friends friends
+    this.setState({ friends });
+    
+  };
 
 
-//IF all friends have not beek clicked, then click on friend. If friend clicked chosenFriend = false, then mark true and choose friend. If friend cliked chosenFriend = True then state 'Better luck next time, let's play again.'
+
+//when clicked:
+
+//If all friends have not beek clicked, then click on friend. If friend clicked chosenFriend = false, then mark true and choose friend. If friend clicked chosenFriend = True then state 'Better luck next time, let's play again.'
 export default App;
