@@ -24,8 +24,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Title>Friends List</Title>
-        <h2> Click on a new face below, but don't repeat yourself. If you get them all, you win!</h2>
+        <Title>Trak the Trekker</Title>
+        <h2> Click on a new Star Trek face below, but don't repeat yourself. If you get them all, you win!</h2>
         <div className="table-responsive">
          
             {this.state.friends.map(friend => (

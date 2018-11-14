@@ -3,3 +3,15 @@
   text-align: center;
   margin-bottom: 50px;
 }
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.table-responsive {
+  width: 75%;
+ align-content: center;
+ text-align: center;
+ margin: auto;
+ 
+}
