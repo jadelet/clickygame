@@ -46,10 +46,10 @@ shuffle = () => {
   }
 };
 
- handleClick  = chosen => {
+ handleClick  = () => {
   
      
-  if (chosen) {
+  if (this.chosen) {
     this.setState({ 
     message: "You like Star Wars better, don't you?Let's try this again, practice makes perfect",
     highscore: (this.state.score > this.state.highscore) ? this.state.score : this.state.highscore,
@@ -97,7 +97,7 @@ render() {
             key={friend.id}
             name={friend.name}
             image={friend.image}
-          //  onClick={friend.handleClick}
+            handleClick={friend.handleClick}
              />
              
             )
