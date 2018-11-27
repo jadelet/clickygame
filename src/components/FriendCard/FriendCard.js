@@ -7,7 +7,7 @@ const FriendCard = props => (
   
   <div className="card">
 
-    <div className="img-container" onClick={() => props.git handleClick()} >
+    <div className="img-container" onClick={() => props.handleClick()} >
      <img alt={props.name} src={props.image} />
     </div>
   </div>
