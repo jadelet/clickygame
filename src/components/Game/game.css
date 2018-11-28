@@ -1,0 +1,39 @@
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.table-responsive {
+  width: 75%;
+ align-content: center;
+ text-align: center;
+ margin: auto;
+ 
+}
+.nav {
+  width: 75%;
+ align-content: center;
+ margin: auto;
+ color: black;
+ 
+}
+ul { 
+  width: 100%;
+ list-style-type: none;
+display: inline-flex;
+margin: auto;
+text-align: center;
+color: black;
+font-size: 24!;
+
+}
+li { 
+  width: 75%;
+ list-style-type: none;
+
+}
